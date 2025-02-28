@@ -835,6 +835,7 @@ section,
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  
 }
 
 .hero .btn-watch-video {
@@ -959,7 +960,8 @@ section,
 .why-us .why-box {
   color: var(--contrast-color);
   background: var(--accent-color);
-  padding: 30px;
+  padding: 60px;
+  border-radius: 5%;
 }
 
 .why-us .why-box h3 {
@@ -975,14 +977,17 @@ section,
 --------------------------------*/
 .chefry {
 color: #7f7f90;
+padding-top: 41px;
 }
 
 .chefabi {
 color: #7f7f90;
+padding-top: 23px;
 }
 
 .cheflogro {
 color: #7f7f90;
+padding-top: 28px;
 }
 
 .why-us .why-box p {
@@ -1570,7 +1575,6 @@ color: #7f7f90;
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 20px 30px;
-}
 
 .contact .info-item .icon {
   color: var(--contrast-color);
@@ -1661,6 +1665,13 @@ color: #7f7f90;
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+
+/*contact no class here*/
+
+.ContactNum {
+  padding-bottom: 23px;
 }
 
 /*--------------------------------------------------------------
